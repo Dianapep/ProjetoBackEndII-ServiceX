@@ -1,4 +1,5 @@
-package br.com.gabrielnunes.demo.categoria.domain;
+package br.com.dianafigueiredo.demo.categoria.domain;
+import br.com.dianafigueiredo.demo.servico.domain.Servico;
 import jakarta.persistence.*;
 import lombok.Data;
 import java.util.List;
@@ -17,13 +18,13 @@ public class Categoria {
     @Column(name = "NOME_CATEGORIA")
     private String nomeCategoria;
     @OneToMany(mappedBy = "categoria", cascade = CascadeType.ALL)
-    private List<br.com.gabrielnunes.demo.servico.domain.Servico> servicos;
+    private List<Servico> servicos;
 
     public Categoria(){
 
     }
 
-    public Categoria(Integer idCategoria, String nomeCategoria, List<br.com.gabrielnunes.demo.servico.domain.Servico> servicos) {
+    public Categoria(Integer idCategoria, String nomeCategoria, List<Servico> servicos) {
         this.idCategoria = idCategoria;
         this.nomeCategoria = nomeCategoria;
         this.servicos = servicos;

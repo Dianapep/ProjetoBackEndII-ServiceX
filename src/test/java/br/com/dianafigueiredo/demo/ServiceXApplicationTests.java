@@ -1,4 +1,4 @@
-package br.com.gabrielnunes.demo;
+package br.com.dianafigueiredo.demo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

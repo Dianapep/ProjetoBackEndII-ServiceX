@@ -1,4 +1,4 @@
-package br.com.gabrielnunes.demo;
+package br.com.dianafigueiredo.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

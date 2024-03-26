@@ -1,7 +1,7 @@
-package br.com.gabrielnunes.demo.servico.services;
+package br.com.dianafigueiredo.demo.servico.services;
 
-import br.com.gabrielnunes.demo.servico.domain.Servico;
-import br.com.gabrielnunes.demo.servico.repositores.ServicoRepository;
+import br.com.dianafigueiredo.demo.servico.repositores.ServicoRepository;
+import br.com.dianafigueiredo.demo.servico.domain.Servico;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import java.util.List;

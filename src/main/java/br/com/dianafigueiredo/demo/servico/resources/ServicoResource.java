@@ -1,7 +1,7 @@
-package br.com.gabrielnunes.demo.servico.resources;
+package br.com.dianafigueiredo.demo.servico.resources;
 
-import br.com.gabrielnunes.demo.servico.domain.Servico;
-import br.com.gabrielnunes.demo.servico.services.ServicoServices;
+import br.com.dianafigueiredo.demo.servico.domain.Servico;
+import br.com.dianafigueiredo.demo.servico.services.ServicoServices;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -1,7 +1,7 @@
-package br.com.gabrielnunes.demo.categoria.resources;
+package br.com.dianafigueiredo.demo.categoria.resources;
 
-import br.com.gabrielnunes.demo.categoria.domain.Categoria;
-import br.com.gabrielnunes.demo.categoria.services.CategoriaServices;
+import br.com.dianafigueiredo.demo.categoria.domain.Categoria;
+import br.com.dianafigueiredo.demo.categoria.services.CategoriaServices;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

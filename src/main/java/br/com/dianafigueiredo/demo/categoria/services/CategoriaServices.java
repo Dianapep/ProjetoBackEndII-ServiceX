@@ -1,7 +1,7 @@
-package br.com.gabrielnunes.demo.categoria.services;
+package br.com.dianafigueiredo.demo.categoria.services;
 
-import br.com.gabrielnunes.demo.categoria.domain.Categoria;
-import br.com.gabrielnunes.demo.categoria.repositores.CategoriaRepository;
+import br.com.dianafigueiredo.demo.categoria.domain.Categoria;
+import br.com.dianafigueiredo.demo.categoria.repositores.CategoriaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

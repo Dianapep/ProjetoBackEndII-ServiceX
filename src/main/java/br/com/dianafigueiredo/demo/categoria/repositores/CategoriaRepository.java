@@ -1,6 +1,6 @@
-package br.com.gabrielnunes.demo.categoria.repositores;
+package br.com.dianafigueiredo.demo.categoria.repositores;
 
-import br.com.gabrielnunes.demo.categoria.domain.Categoria;
+import br.com.dianafigueiredo.demo.categoria.domain.Categoria;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

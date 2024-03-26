@@ -1,6 +1,6 @@
-package br.com.gabrielnunes.demo.servico.repositores;
+package br.com.dianafigueiredo.demo.servico.repositores;
 
-import br.com.gabrielnunes.demo.servico.domain.Servico;
+import br.com.dianafigueiredo.demo.servico.domain.Servico;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
